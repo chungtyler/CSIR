@@ -56,23 +56,25 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Tyler Chung</a><sup>*</sup>,</span>
+                <a href="https://www.linkedin.com/in/chungtyler/" target="_blank">Tyler Chung</a><sub>1</sub>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Mingfeng Yuan</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Hao Zhang</a><sub>1</sub>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Jinjun Shan</a>
+                    <a href="https://www.trailab.utias.utoronto.ca/mingfeng-yuan" target="_blank">Mingfeng Yuan</a><sub>2</sub>,</span>
+                    <span class="author-block">
+                      <a href="https://lassonde.yorku.ca/users/jjshan" target="_blank">Jinjun Shan</a><sub>1</sub>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">York University<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">York University<sub>1</sub>University of Toronto<sub>2</sub></span><!--br>Conferance name and year</span-->
+                    <!--span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span-->
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
-                      <span class="link-block">
+                      <!--span class="link-block">
                         <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
@@ -80,7 +82,7 @@
                         </span>
                         <span>Paper</span>
                       </a>
-                    </span>
+                    </span-->
 
                     <!-- Supplementary PDF link -->
                     <!--span class="link-block">
@@ -95,7 +97,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/CSIR-research" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -105,7 +107,7 @@
                 </span>
 
                 <!-- ArXiv abstract Link -->
-                <span class="link-block">
+                <!--span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -113,7 +115,7 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+                    </span-->
             </div>
           </div>
         </div>
@@ -129,12 +131,12 @@
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <source src="static/videos/CSIR DEMO.mp4"
         type="video/mp4">
       </video>
-      <h2 class="subtitle has-text-centered">
+      <!--h2 class="subtitle has-text-centered">
         Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+    </h2-->
     </div>
   </div>
 </section>
@@ -151,29 +153,27 @@
             This paper addresses the gap in research for person
             goal navigation (PersonNav). With the advancement of large
             language models (LLMs) and vision language models (VLMs)
-            due to their vast training data they’re capable of zero-shot
-            inference appealing in the area of object goal navigation (Object-
-            Nav). This method uses semantic reasoning to interpret meaning
-            behind words to find target-objects in unseen environments like
-            going to the fridge to get an apple. If we replace the target
-            from objects to people this adds another level of complexity to
-            the problem further needing ways to interpret human intention
-            and social behaviours to guide reasoning for efficient PersonNav
-            systems. We propose CSIR (Contextually and Socially Informed
-            Robots) to address PersonNav that uses not only semantic
-            information but as well as contextual and social information
-            based on the user’s query and target-person’s social roles
-            alongside spatial information for optimizing its search through
-            prompt engineering techniques. CSIR utilizes VLMs in a multi-
-            agent system performing various roles such as task planning,
-            person location prediction, and person identification matching
-            offering a top-to-bottom method from human-robot-interaction
-            (HRI) to efficient PersonNav. Our framework is tested on
-            hardware demonstrating real-world embodiment of the system
-            tested for various scenarios and social roles of people in a
-            given environment. This work is to demonstrate the reasoning
-            capabilities of VLMs to address the gap in research for person
-            goal navigation to be applied in real-world applications.
+            due to their vast training data, they’re capable of zero-shot
+            inference, appealing in the area of object goal navigation
+            (ObjectNav). This method uses semantic reasoning to interpret
+            the meaning behind words to find target-objects in unseen
+            environments, like going to the fridge to get an apple. Suppose
+            we replace the goal from objects to people. In that case, this
+            adds another level of complexity to the problem, further needing
+            ways to interpret human intention and social behaviours to
+            guide reasoning for efficient PersonNav systems. We propose
+            CSIR (Contextually and Socially Informed Robots) to address
+            PersonNav, which uses not only semantic information but
+            contextual and social information based on the user’s query
+            and target-person’s social roles alongside spatial awareness for
+            optimizing its search. CSIR utilizes LLMs and VLMs in a multi-
+            agent system performing roles such as task planning, person
+            location prediction, and person matching, offering a top-to-
+            bottom method from human-robot interaction (HRI) to efficient
+            PersonNav. This work demonstrates the reasoning capabilities
+            of language models in a social context to address the gap in
+            research for person goal navigation to be applied in real-world
+            applications.
           </p>
         </div>
       </div>
@@ -184,34 +184,34 @@
 
 
 <!-- Image carousel -->
-<section class="hero is-small">
+<!--section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <!--img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <!--img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <!--img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <!--img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
       </h2>
@@ -226,17 +226,17 @@
 
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<!--section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <!--h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
           <div class="publication-video">
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!--iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -247,7 +247,7 @@
 
 
 <!-- Video carousel -->
-<section class="hero is-small">
+<!--section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
@@ -255,21 +255,21 @@
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
             <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
+            <!--source src="static/videos/carousel1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
             <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
+            <!--source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
             <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
+            <!--source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
         </div>
@@ -285,7 +285,7 @@
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!--section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -300,7 +300,7 @@
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!--section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
